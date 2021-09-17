@@ -1,0 +1,53 @@
+.about_wrapper{
+}
+
+.about-right{
+    background-color:#fff ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   padding-left: 5rem;
+   padding-right: 5rem;
+    text-align: center;
+}
+.about-right h1{
+    font-size: 7rem;
+    text-transform: uppercase;
+}
+.about-right h1 span{
+    color: #135fb6;
+}
+.about-right h2{
+    font-weight: 600;
+}
+.about_btn{
+    display: flex;
+    margin: 2rem 0;
+}
+
+.about_btn .bttn_pink{
+    background-color: #135fb6;
+    color: #fff;
+    border-color: #135fb6;
+    transition: all 0.5s ease-in-out;
+}
+.bttn.bttn_pink:hover{
+    background-color: transparent;
+    border-color: #135fb6;
+    color: #000;
+}
+.about_btn .bttn.bttn_white{
+    transition: all 0.5s ease-in-out;
+}
+.bttn_white:hover{
+    background-color: #135fb6;
+    border-color: #135fb6;
+    color: #fff;
+}
+.about_para p{
+    font-weight: 300;
+    padding: 0.5rem;
+    opacity: 0.8;
+    text-align: center;
+}
